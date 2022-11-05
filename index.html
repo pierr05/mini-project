@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+</head>
+<body>
+    <header>
+        <section aria aria-label="primary-navigation">
+                <nav class="text-right">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/pierr05">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav> 
+        </section>
+    </header>
+
+    <main>
+        <article>
+            
+            <h1 class="text-center">My New Website</h1>
+
+            <figure>
+                <img src="./img/image-1.png" alt="Graphic with Coming Soon text">
+
+                <figcaption class="text-center">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </figcaption>
+            </figure>
+        </article>
+
+        <article id="contact">
+
+            <h2 class="text-center">Contact Me</h2>
+
+            <form action="https://httpbin.org/post" method="post">
+
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label> <input type="text" name="name" id="name" autocomplete="on" required>
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label> <input type="email" name="email" id="email" autocomplete="on" required> 
+                    </li>
+                </ul>
+
+                <div class="text-right">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </article>
+    </main>
+    <footer class="text-center">
+
+            &copy; 2022 My New Website Productions
+    </footer>
+</body>
+</html> 
