@@ -54,7 +54,7 @@ footer {
 }
 
 figure {
-  margin: 40px;
+  margin-bottom: 40px;
 } 
 
 img {
@@ -97,7 +97,7 @@ textarea {
 button {
   height: 40px;
   width: 120px;
-  background-color: #4f4856;
+  background-color: #4f4846;
   color: #fdf8f5;
   margin-top: 11px;
 } 
